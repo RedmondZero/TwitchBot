@@ -1,6 +1,6 @@
 {
-    "channel" : "TennesseDaniels",
-    "username" : "tennessedanielsbot",
+    "channel" : "[channel]",
+    "username" : "[username]",
     "password" : "[auth]"
 
 }
