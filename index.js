@@ -18,7 +18,7 @@ const tmi = require('tmi.js'),
     client.connect().catch(console.error);
     
     client.on('connected', () => {
-        client.say(channel, 'tennessedaneilsbot has connected! ');
+        client.say(channel, 'MrDestructoid Online ');
     });
 
     client.on('message', (channel, user, message, self) => {
@@ -27,9 +27,7 @@ const tmi = require('tmi.js'),
         if(message == '!hello') {
             client.say(channel, `@${user.username}, hello!`);
         }
-        if(message ==  '!test') {
-            client.say(channel, `MrDestructoid Online`);
-        }
+        
         if(message ==  '!poggers') {
             client.say(channel, `nmpPOGGERS nmpPOGGERS nmpPOGGERS nmpPOGGERS nmpPOGGERS 
             nmpPOGGERS nmpPOGGERS nmpPOGGERS nmpPOGGERS nmpPOGGERS nmpPOGGERS nmpPOGGERS 
